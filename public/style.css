@@ -1,0 +1,68 @@
+.header {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+}
+.color-balls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.color-balls div {
+  max-width: 40px;
+  height: 40px;
+  max-height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  border: #000 1px solid;
+}
+
+.color-balls .cyan {
+  background-color: #4dd7f3;
+}
+.color-balls .white {
+  background-color: #ffffff;
+}
+.color-balls .melon {
+  background-color: #e4a56f;
+}
+.color-balls .red {
+  background-color: #ff0000;
+}
+.color-balls .green {
+  background-color: #9fdb61;
+}
+
+.parts * {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.buy-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.white-fnt {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 9px;
+  padding-top: 9px;
+  max-width: 40px;
+  height: 40px;
+  max-height: 40px;
+}
+
+.white-fnt * {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.img-vision {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.reviews {
+  margin-bottom: 3rem;
+}
