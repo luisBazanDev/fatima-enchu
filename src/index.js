@@ -24,7 +24,7 @@ app.listen("5318", () => {
 });
 
 mongoose.connect(
-  "mongodb+srv://oexG3I6FpbYhH3hF:oexG3I6FpbYhH3hF@darmekdb.cw75e.mongodb.net/Fatiwi/?retryWrites=true&w=majority",
+  "mongodb+srv://oexG3I6FpbYhH3hF:oexG3I6FpbYhH3hF@darmekdb.cw75e.mongodb.net/Fatiwi?retryWrites=true&w=majority",
   () => {
     console.log("MongoDB connected");
   }
