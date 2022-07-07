@@ -66,3 +66,32 @@
 .reviews {
   margin-bottom: 3rem;
 }
+
+#img-ref {
+  height: 80vh;
+}
+
+#img-p-1 {
+  position: relative;
+  left: 0;
+}
+
+.img-ref {
+  width: 100%;
+  max-width: 82vw;
+  height: 80vh;
+  max-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 8vw;
+  transition: 0.3s;
+}
+
+@media (max-width: 1000px) {
+  #img-ref {
+    height: 40vh;
+  }
+  .img-ref {
+    height: 40vh;
+  }
+}
